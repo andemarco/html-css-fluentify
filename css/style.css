@@ -2,13 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER  */
 .header {
   background-color: #0D325A;
   color: white;
-  font-family: 'Roboto', sans-serif;
 }
 /* HEADER NAV */
 .header-nav {
@@ -122,11 +122,10 @@ img {
 
 /* MAIN  */
 
-/* MAIN PRIMA PARTE */
+/* MAIN BAR */
 .main-bar {
   height: 140px;
   background-color: #ABB1B1;
-  font-family: 'Roboto', sans-serif;
 }
 .main-bar-text {
   padding-top: 35px;
@@ -144,25 +143,46 @@ img {
   color: grey;
 }
 
+/* MAIN PRIMA PARTE */
+
 .main-first {
+  padding-top: 30px;
+  height: 520px;
   width: 80%;
   margin: 0 auto;
 }
+.main-first img {
+  height: 150px;
+  padding: 0;
+  margin: 0;
+}
+
+/* MAIN PRIMA PARTE SINISTRA */
 .main-first-left {
+  text-align: center;
   width: 25%;
-  background-color: pink;
   float: left;
   margin-right: 12.5%;
 }
-.main-first-center {
+.main-first-left h3 {
+  font-size: 25px;
+  color: green;
+}
+.main-first-left hr {
+  margin: 15px auto;
   width: 25%;
-  background-color: purple;
+}
+.main-first-center {
+  text-align: center;
+  width: 25%;
+  /* background-color: purple; */
   float: left;
   margin-right: 12.5%;
 }
 .main-first-right {
+  text-align: center;
   width: 25%;
-  background-color: green;
+  /* background-color: green; */
   float: left;
 }
 
