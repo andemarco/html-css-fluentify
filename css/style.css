@@ -6,7 +6,6 @@
 
 /* HEADER  */
 .header {
-  height: 500px;
   background-color: #0D325A;
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -66,16 +65,16 @@ img {
   margin-left: 15px;
 }
 .header-nav-right .plan-button {
-border-radius: 3px;
-background-color: green;
-width: 160px;
-text-align: center;
+  border-radius: 3px;
+  background-color: green;
+  width: 160px;
+  text-align: center;
 }
 .header-nav-right .login-button {
-border: solid 1px white;
-border-radius: 3px;
-width: 90px;
-text-align: center;
+  border: solid 1px white;
+  border-radius: 3px;
+  width: 90px;
+  text-align: center;
 }
 .header-nav-right a {
   color: white;
@@ -122,17 +121,29 @@ text-align: center;
 
 
 /* MAIN  */
-/* MAIN PRIMA PARTE */
-.main {
-  height: 400px;
-  background-color: blue;
-}
 
+/* MAIN PRIMA PARTE */
 .main-bar {
-  background-color: grey;
+  height: 140px;
+  background-color: #ABB1B1;
+  font-family: 'Roboto', sans-serif;
+}
+.main-bar-text {
+  padding-top: 35px;
+  line-height: 35px;
+  text-align: center;
   width: 80%;
   margin: 0 auto;
 }
+.main-bar-text h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.main-bar-text h3 {
+  font-weight: 400;
+  color: grey;
+}
+
 .main-first {
   width: 80%;
   margin: 0 auto;
