@@ -14,7 +14,6 @@
 /* HEADER NAV */
 .header-nav {
   height: 60px;
-  background-color: #0D325A;
   width: 80%;
   margin: 0 auto;
 }
@@ -147,7 +146,7 @@ img {
 /* MAIN PRIMA PARTE */
 
 .main-first {
-  padding-top: 30px;
+  padding-top: 50px;
   height: 520px;
   width: 80%;
   margin: 0 auto;
@@ -227,20 +226,53 @@ color: grey;
 
 /* MAIN SECONDA PARTE  */
 .main-second {
-  width: 80%;
+  height: 480px;
+  width: 70%;
   margin: 0 auto;
   margin-top: 50px;
 }
+
+/* MAIN SECONDA PARTE SINISTRA  */
+
 .main-second-left {
-  background-color: lightgrey;
-  width: 40%;
+  width: 45%;
   float: left;
-  margin-right: 20%;
+  margin-right: 5%;
 }
+
+.main-second-left img {
+  height: 380px;
+  margin-left: 60px;
+}
+
+/* MAIN SECONDA PARTE DESTRA  */
+
 .main-second-right {
-  background-color: lightpink;
-  width: 40%;
+  text-align: left;
+  width: 45%;
   float: left;
+  margin-right: 0;
+}
+
+.main-second-right h3 {
+  line-height: 45px;
+  width: 80%;
+  font-size: 35px;
+  margin-bottom: 20px
+}
+
+.main-second-right p {
+  line-height: 30px;
+  width: 80%;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.main-second-right a {
+  color: lightblue;
+}
+
+.main-second-right a:hover {
+  color:blue;
 }
 
 .main-second::after {
