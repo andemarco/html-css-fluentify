@@ -175,7 +175,7 @@ img {
   width: 25%;
 }
 .main-first-left p {
-color: grey;
+  color: grey;
 }
 /* MAIN PRIMA PARTE CENTRO */
 .main-first-center {
@@ -195,7 +195,7 @@ color: grey;
   width: 25%;
 }
 .main-first-center p {
-color: grey;
+  color: grey;
 }
 
 /* MAIN PRIMA PARTE DESTRA */
@@ -282,7 +282,7 @@ color: grey;
 }
 /* FOOTER  */
 footer {
-  background-color: orange;
+  background-color: #ABB1B1;
   height: 100px;
 }
 
@@ -294,14 +294,29 @@ footer {
 /* FOOTER SINISTRO  */
 .footer-left {
   float: left;
-  background-color: brown;
   width: 40%;
   margin-right: 20%;
+  text-align: center
+}
+
+.footer-left h2 {
+  line-height: 100px;
+  font-size: 35px;
 }
 
 /* FOOTER DESTRO */
 .footer-right {
-  width: 40%;
   float: left;
-  background-color: lightblue;
+  width: 40%;
+  text-align: center
+}
+
+.footer-right h2 {
+  display: inline-block;
+  line-height: 90px;
+  font-size: 35px;
+  background-color: green;
+  margin-top: 5px;
+  padding: 0 20px;
+  border-radius: 5px;
 }
