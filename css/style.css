@@ -6,7 +6,7 @@
 
 /* HEADER  */
 .header {
-  height: 300px;
+  height: 500px;
   background-color: #0D325A;
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -57,25 +57,22 @@ img {
 /* HEADER NAV DESTRA */
 .header-nav-right {
   float: right;
-  line-height: 15px;
+  line-height: 60px;
   font-size: 12px;
   text-transform: uppercase;
-  margin-top: 14px;
 }
 .header-nav-right p {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 .header-nav-right .plan-button {
-border: solid 1px white;
-padding: 6px;
 border-radius: 3px;
 background-color: green;
+width: 160px;
+text-align: center;
 }
-
 .header-nav-right .login-button {
 border: solid 1px white;
-padding: 8px;
 border-radius: 3px;
 width: 90px;
 text-align: center;
@@ -83,7 +80,46 @@ text-align: center;
 .header-nav-right a {
   color: white;
   text-decoration: none;
+  line-height: 40px;
 }
+
+.header-nav-right a:hover {
+  color:orange;
+}
+
+/* BANNER */
+.header-banner {
+  height: 440px;
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(../img/oldman.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+}
+.header-banner div {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.header-banner div p {
+  border-radius: 3px;
+  line-height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  background-color: green;
+  text-transform: uppercase;
+}
+.header-banner div a {
+  text-decoration: none;
+}
+
 
 /* MAIN  */
 /* MAIN PRIMA PARTE */
